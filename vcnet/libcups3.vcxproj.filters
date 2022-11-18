@@ -126,6 +126,12 @@
     <ClCompile Include="..\cups\rand.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\cups\dnssd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cups\json.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\cups\libcups3.def">
@@ -212,6 +218,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\cups\pwg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cups\dnssd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cups\json.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
